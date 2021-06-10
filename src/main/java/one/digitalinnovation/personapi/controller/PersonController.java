@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class PersonController {
     @GetMapping
     public String getBook(){
-        return "Vai cagar Sergin!";
+        return "Ok!";
+
     }
 }
